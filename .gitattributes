@@ -1,0 +1,7 @@
+# Force GitHub Linguist to count Jupyter Notebooks as Python code
+*.ipynb linguist-language=Python
+*.ipynb linguist-detectable=true
+
+# Normalize line endings across Windows, Mac, and Linux
+* text=auto
+*.ipynb text
